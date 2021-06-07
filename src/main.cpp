@@ -9,9 +9,10 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-   digitalWrite(ledPin,HIGH);
-    delay(1000);
+    digitalWrite(ledPin,HIGH);
     Serial.println("Light on");
-   digitalWrite(ledPin,LOW);
-    delay(1000);
+    delay(500);
+    digitalWrite(ledPin,LOW);
+    Serial.println("Light off");
+    delay(500);
 }
