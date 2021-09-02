@@ -5,6 +5,7 @@ TaskHandle_t Task2;
 
 // LED pins
 const int led1 = 2;
+const int led1 = 3; // dumm delete
 const int led2 = 4;
 
 void Task1code( void * pvParameters );
